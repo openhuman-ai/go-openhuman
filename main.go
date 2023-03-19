@@ -1,12 +1,8 @@
-// Application which greets you.
 package main
-
 import "fmt"
 
 func main() {
-	fmt.Println(greet())
+	greet()
+	fmt.Println("sdfsd")
 }
 
-func greet() string {
-	return "Hi!"
-}
