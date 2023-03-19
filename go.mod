@@ -1,5 +1,3 @@
-module github.com/abc/xyyx
+module github.com/OpenHuman-ai/go-openhuman
 
 go 1.18
-
-require github.com/OpenHuman-ai/go-openhuman v1.0.0 // indirect
