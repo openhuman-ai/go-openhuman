@@ -1,8 +1,11 @@
 package main
+
 import "fmt"
 
 func main() {
-	greet()
-	fmt.Println("sdfsd")
+	fmt.Println(greet())
 }
 
+func greet() string {
+	return "Hi!"
+}
